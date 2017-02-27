@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cheese_variants
+label: 'Cheese Variants'
+orderItemType: wt_order_item_type
+generateTitle: false
+traits: {  }

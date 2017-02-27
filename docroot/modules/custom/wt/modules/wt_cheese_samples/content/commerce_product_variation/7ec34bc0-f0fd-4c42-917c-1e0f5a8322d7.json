@@ -1,0 +1,142 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/product_id": [
+            {
+                "href": "http:\/\/localhost:8383\/product\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/attribute_amount": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "variation_id": [
+        {
+            "value": "6"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7ec34bc0-f0fd-4c42-917c-1e0f5a8322d7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cheese_variants"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/product_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/product\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/cheeses"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8106f56b-ac2a-45e7-96d9-6a4d0a6be3c2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/attribute_amount": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/amount"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e31a92ab-f117-43ed-9ac7-0002f6abf25b"
+                    }
+                ]
+            }
+        ]
+    },
+    "sku": [
+        {
+            "value": "dofino-havarti-dill-8"
+        }
+    ],
+    "title": [
+        {
+            "value": "Dofino Havarti with Dill (8)",
+            "lang": "en"
+        }
+    ],
+    "price": [
+        {
+            "number": "3.95",
+            "currency_code": "USD"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487432478",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487513598",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cheeses
+label: Cheese
+description: ''
+variationType: cheese_variants
+injectVariationFields: true
+traits: {  }

@@ -1,0 +1,8 @@
+name: 'Wensleytail: Cheese'
+type: module
+description: 'Contains cheese products'
+core: 8.x
+package: wensleytail
+dependencies:
+  - wt_order
+  - wt_taxonomy

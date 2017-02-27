@@ -1,0 +1,202 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8383\/product\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/cheeses"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/additives": [
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/5?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/10?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/images": [
+            {
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/71OCkgTGcPL._SL1500__0_0_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/producer": [
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/9?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/variations": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "product_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "03f29301-50b4-4391-b1a8-4db2d2595941"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cheeses"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/additives": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_additives"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d3c03c0e-59cd-4e9d-a31c-cafc1058deaa"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_additives"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9d532177-eab4-4c40-88fe-169e96ae17cd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/71OCkgTGcPL._SL1500__0_0_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2acad673-f1cd-44d7-a54e-f1ef31f36955"
+                    }
+                ],
+                "alt": "smoked bacon cheddar package",
+                "title": "",
+                "width": "1500",
+                "height": "535"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/producer": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/9?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_producer"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2e59199d-eb09-4940-a2ab-9d328f5a24fd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/variations": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bd151985-1702-4c4f-8d41-6018f32fc6a5"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": [
+        {
+            "value": "Hickory Farms Smoked Bacon & Cheddar Blend",
+            "lang": "en"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487433264",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487433449",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "amazon_id": [
+        {
+            "value": "B00RKT3UU6"
+        }
+    ]
+}

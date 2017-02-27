@@ -1,0 +1,209 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8383\/product\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/cheeses"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/additives": [
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/images": [
+            {
+                "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/sartori_0_0_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/producer": [
+            {
+                "href": "http:\/\/localhost:8383\/taxonomy\/term\/8?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/variations": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "product_id": [
+        {
+            "value": "2"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a7e016a5-8624-44bf-bf49-5e9822e478f9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cheeses"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/additives": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_additives"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b02afdcf-b0d4-4c62-8cc5-3e3e9e31b775"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/sites\/default\/files\/img\/cheese\/sartori_0_0_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3fc750e6-8560-46d4-9980-41779d9cdc99"
+                    }
+                ],
+                "alt": "crumbling wax coated wedge of cheese",
+                "title": "",
+                "width": "500",
+                "height": "500"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/producer": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/wt_producer"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a887e6cc-47c5-4839-9128-cd0bb33dad17"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product\/cheeses\/variations": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c03a4c33-3465-4812-9b6d-7494a7752307"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3108bcd5-4d54-4981-8831-0913105e7889"
+                    }
+                ]
+            }
+        ]
+    },
+    "title": [
+        {
+            "value": "Sartori Merlot BellaVitano",
+            "lang": "en"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487431880",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487433171",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>By wedding this rich, creamy cheese to the berry and plum notes of Merlot, we\u2019ve created a marriage of flavors destined to make your taste buds say, \u201cI do.\u201d On that note, if you invite a few friends from our pairing guide \u2014 say, toasted walnuts, thin slices of prosciutto and semisweet chocolates for dessert \u2014 the honeymoon never has to end.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "amazon_id": [
+        {
+            "value": "B00P449JIG"
+        }
+    ]
+}

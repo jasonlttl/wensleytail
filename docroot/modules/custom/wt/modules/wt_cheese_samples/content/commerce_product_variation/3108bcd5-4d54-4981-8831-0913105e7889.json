@@ -1,0 +1,142 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_variation\/cheese_variants"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/uid": [
+            {
+                "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/product_id": [
+            {
+                "href": "http:\/\/localhost:8383\/product\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/attribute_amount": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "variation_id": [
+        {
+            "value": "5"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3108bcd5-4d54-4981-8831-0913105e7889"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cheese_variants"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e66a72cb-c970-459a-a314-4317320d7273"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/product_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8383\/product\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product\/cheeses"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a7e016a5-8624-44bf-bf49-5e9822e478f9"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/commerce_product_variation\/cheese_variants\/attribute_amount": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/commerce_product_attribute_value\/amount"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "49974724-1718-4815-8c48-49683e5f8ead"
+                    }
+                ]
+            }
+        ]
+    },
+    "sku": [
+        {
+            "value": "sartori-merlot-16"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sartori Merlot BellaVitano (8)",
+            "lang": "en"
+        }
+    ],
+    "price": [
+        {
+            "number": "14.95",
+            "currency_code": "USD"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1487432049",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1487513598",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}
