@@ -25,6 +25,7 @@
         "drupal/seckit": "^1.0.0-alpha2",
         "drupal/security_review": "*",
         "drupal/shield": "^1.0.0",
+        "drupal/swiftmailer": "^1.0.0-beta1",
         "drush/drush": "^8.1.8"
     },
     "require-dev": {
